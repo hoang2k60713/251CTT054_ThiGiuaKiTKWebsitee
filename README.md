@@ -27,3 +27,4 @@ ChatGPT
 * Khó khăn trong việc sử dụng CSS Grid và Flexbox.
 * Chưa biết cách bố trí giao diện sao cho đẹp và cân đối.
 * Khó khăn khi thiết kế giao diện tương thích trên nhiều kích thước màn hình.
+* https://hoang2k60713.github.io/251CTT054_ThiGiuaKiTKWebsitee/
