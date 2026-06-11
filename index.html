@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quán Cà Phê Nhà H</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>☕ QUÁN CÀ PHÊ NHÀ H</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Dịch vụ</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+    <h2>Tìm kiếm đồ uống</h2>
+
+    <div class="timkiem">
+        <input type="text"
+               id="timKiem"
+               placeholder="Nhập tên đồ uống">
+
+        <button onclick="timDoUong()">
+            Tìm kiếm
+        </button>
+    </div>
+
+    <p id="ketQua"></p>
+</section>
+
+<section>
+    <h2>Menu đồ uống</h2>
+
+    <div class="grid-menu">
+
+        <article class="card">
+            <img src="images/cfden.png" alt="Cà phê đen">
+            <h3>Cà phê đen</h3>
+            <p>15.000đ</p>
+            <button onclick="datMon('Cà phê đen')">
+                Đặt món
+            </button>
+        </article>
+
+        <article class="card">
+            <img src="images/cfsua.png" alt="Cà phê sữa">
+            <h3>Cà phê sữa</h3>
+            <p>17.000đ</p>
+            <button onclick="datMon('Cà phê sữa')">
+                Đặt món
+            </button>
+        </article>
+
+        <article class="card">
+            <img src="images/tradao.png" alt="Trà đào">
+            <h3>Trà đào</h3>
+            <p>20.000đ</p>
+            <button onclick="datMon('Trà đào')">
+                Đặt món
+            </button>
+        </article>
+
+        <article class="card">
+            <img src="images/matcha.png" alt="Matcha đá xay">
+            <h3>Matcha đá xay</h3>
+            <p>25.000đ</p>
+            <button onclick="datMon('Matcha đá xay')">
+                Đặt món
+            </button>
+        </article>
+
+    </div>
+</section>
+
+<section>
+    <h2>Dịch vụ của chúng tôi</h2>
+
+    <div class="dich-vu">
+
+        <div class="box">
+            🚚<br>
+            Giao hàng tận nơi
+        </div>
+
+        <div class="box">
+            📶<br>
+            Wifi miễn phí
+        </div>
+
+        <div class="box">
+            🎉<br>
+            Tổ chức sinh nhật
+        </div>
+
+        <div class="box">
+            💳<br>
+            Thanh toán online
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Thống kê</h2>
+
+    <div class="thongke">
+        <h3>Tổng lượt đặt hàng</h3>
+
+        <span id="luotDat">0</span>
+    </div>
+</section>
+
+<section>
+    <h2>Tin tức & Khuyến mãi</h2>
+
+    <div class="news">
+        <h3>Khai trương chi nhánh mới</h3>
+        <p>
+            Giảm giá 20% cho tất cả đồ uống trong tuần đầu tiên.
+        </p>
+    </div>
+
+    <div class="news">
+        <h3>Ra mắt menu mùa hè</h3>
+        <p>
+            Bổ sung nhiều loại trà trái cây và đá xay hấp dẫn.
+        </p>
+    </div>
+
+    <div class="news">
+        <h3>Ưu đãi sinh viên</h3>
+        <p>
+            Giảm 10% khi xuất trình thẻ sinh viên.
+        </p>
+    </div>
+</section>
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-col">
+            <h3>VỀ QUÁN</h3>
+
+            <ul>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Nguồn gốc cà phê</a></li>
+                <li><a href="#">Dịch vụ</a></li>
+                <li><a href="#">Tuyển dụng</a></li>
+                <li><a href="#">Hỗ trợ khách hàng</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>HỆ THỐNG CỬA HÀNG</h3>
+
+            <ul>
+                <li><a href="#">Tìm cửa hàng gần nhất</a></li>
+                <li><a href="#">Chi nhánh Tây Hòa</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>TIN TỨC</h3>
+
+            <ul>
+                <li><a href="#">Khuyến mãi</a></li>
+                <li><a href="#">Sự kiện</a></li>
+                <li><a href="#">Menu mới</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>THEO DÕI CHÚNG TÔI</h3>
+
+            <ul>
+                <li><a href="#" target="_blank">Facebook</a></li>
+                <li><a href="#" target="_blank">Instagram</a></li>
+                <li><a href="#" target="_blank">YouTube</a></li>
+                <li><a href="#" target="_blank">TikTok</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
+
